@@ -5,9 +5,10 @@
    good lighting. The photo should be taken in RAW mode if possible, then converted to a lossless format such as PNG.
 
 2. For the first image:
-* 2a) Take a 24 bit RGB pixel in the photo and collect the least significant bit of each colour in that pixel e.g. 1 bit for each red, green and blue colour.
-* 2b) XOR those 3 bits together into a single bit. Store that bit into an output stream of bits.
-* 2c) Repeat step 2a and 2b for the remaining pixels in the photo.
+
+ - 2a. Take a 24 bit RGB pixel in the photo and collect the least significant bit of each colour in that pixel e.g. 1 bit for each red, green and blue colour.
+ - 2b. XOR those 3 bits together into a single bit. Store that bit into an output stream of bits.
+ - 2c. Repeat step 2a and 2b for the remaining pixels in the photo.
 
 3. Repeat step 2 for the second image.
 
